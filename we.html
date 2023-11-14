@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .co p{
+            width: 300px;
+            height: 300px;
+            background-color:red;
+            border: 1px solid black;
+            overflow:auto;
+
+        }
+
+        .do{
+            float:none;
+            width: 500px;
+            height: 100px;
+            background-color: aqua;
+        } */
+
+     
+        div {
+            padding: 5px 5px;
+            background-color: rgb(184, 147, 206);
+            width: auto;
+            color: white;
+            line-height: 10%;
+            text-align: center;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+
+        form {
+            background-color: rgb(238, 239, 235);
+            border-radius: 5px;
+            border: 1px solid rgb(0, 0, 0);
+            padding: 0px 80px 5px;
+            font-size: large;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 75%;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        input[type="submit"] {
+            background-color: rgb(193, 147, 206);
+            font-size: larger;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            width: 75%;
+            
+        }
+
+        input[type="reset"] {
+            background-color: rgb(255, 0, 140);
+            font-size: larger;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(176, 0, 173);
+        }
+
+        input[type="reset"]:hover {
+            background-color: rgb(140, 191, 0);
+        }
+
+
+        .con{
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(21, 0, 255);
+        }
+
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(0, 255, 85);
+        }
+
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 140, 0);
+        }
+
+        .box4{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 0, 183);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="co">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ex impedit possimus sed cupiditate. Architecto sed quas autem consequatur, vero quis, eveniet, tempore accusantium quod voluptate repellat cupiditate deleniti eaque numquam nisi nihil! Voluptates beatae rem eius perspiciatis! Numquam atque est provident totam sequi dolores neque quas. Labore mollitia laudantium nam sit enim assumenda. Dolores dignissimos illum libero laborum earum doloribus sed quas et? Deserunt quis possimus laboriosam architecto libero harum facere eius veniam eos impedit autem excepturi voluptas, temporibus quae vero rerum at consequatur maiores. Numquam quas iste veritatis recusandae nihil enim tenetur error, maxime voluptatum natus et ipsa corporis eius velit cupiditate dolor similique nisi voluptatem aut modi ipsam exercitationem quis amet molestiae! Maiores aperiam culpa ipsam ipsum animi. Accusamus illo consequatur delectus ullam nihil dolores ut numquam, tenetur veniam voluptate ratione fugit tempora inventore similique maxime odit error aperiam illum harum a vel omnis quasi! Itaque repudiandae suscipit voluptas labore officia nobis non dolorem deleniti eveniet alias delectus, nesciunt veniam quisquam inventore beatae facere consequatur quas modi? Adipisci perspiciatis delectus, vero ullam obcaecati earum amet error. Tenetur nulla voluptate, tempore, aspernatur cumque consequatur architecto mollitia corporis minima pariatur eum excepturi eaque nobis inventore modi impedit, natus iste!</p>
+    </div>
+
+    <div class="do">
+        float
+    </div> -->
+
+    <div>
+        <h1>Contact Form</h1>
+        <p id="Subheading">Please fill all the text in the fields.</p>
+    </div>
+    <form action="">
+        <label for="text">NAME</label><br>
+        <input type="text" name="text" id="text" placeholder="enter you name " ><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="enter you email" ><br>
+
+        <label for="tel">Mobile</label><br>
+        <input type="tel" name="tel" id="tel" placeholder="enter you mobile no " ><br>
+
+        <label for="message">Massage</label><br>
+        <textarea name="Massage" id="message" cols="30" rows="10" placeholder="enter the massage"></textarea><br>
+
+        <label for="message">Massage</label><br>
+        <select name="Select" id="">
+            <option value="Choose">--Please choose one option--</option>
+            <option value="op1">Message</option>
+            <option value="op2">Call</option>
+            <option value="op3">Email</option>
+        </select>
+
+         <input type="submit" value="submit"> <input type="reset" value="Reset">
+    </form>
+
+
+
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus error dolor sequi eos, molestiae neque quam dolore odit nesciunt accusamus facilis tempore odio saepe fuga vitae debitis? Fugiat sint modi, molestias esse, consequatur quidem rem, facilis debitis nesciunt ipsum ex tenetur minima natus neque doloribus voluptates dignissimos nemo reprehenderit laborum quae impedit error vero! Necessitatibus magni dolorem cumque suscipit eos odio iste amet ad repellat veniam perferendis possimus eum inventore corporis, nisi ratione, debitis error perspiciatis libero quasi aliquam! Hic sint vero eius quaerat, ipsa dignissimos dicta tenetur mollitia voluptates fugit qui, ex dolore vel? Illum ullam aspernatur ratione. Ipsam accusantium, nisi possimus ex aspernatur quaerat, quis voluptate et incidunt alias quia cupiditate. Illo dignissimos incidunt cum ipsa animi id velit sit unde quis odio minus vero sapiente nihil quod similique quam, consequuntur et nisi harum! Quod magnam natus voluptatem soluta eaque sit beatae, molestias iusto tenetur nostrum, corrupti asperiores obcaecati voluptatibus sed? Nostrum asperiores, omnis aut itaque ut illum fugiat voluptates animi esse nihil temporibus laudantium deserunt quia laborum eaque. Nam sapiente quibusdam, illum dolorum quidem nesciunt eos tempore iusto error possimus consectetur illo eveniet. Expedita laboriosam odit saepe temporibus, consectetur, tenetur quaerat consequuntur, et sunt officia doloremque aut!</p>
+
+
+
+    <div class="con">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>

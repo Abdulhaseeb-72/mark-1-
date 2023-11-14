@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 95%;
+    height: 100vh;
+    max-width:1920px ;
+    position: relative;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 10px solid black;
+}
+.main-left{
+    width: 50%;
+    height: 100%;
+    border-right: 5px solid black;
+    background:url(./photos/back.png) ;
+    background-position: center;
+    background-size: cover;
+}
+.main-left .main-left-nav{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-left-nav .left-nav-content ul{
+    display:flex;
+}
+.main-left-nav .left-nav-content ul li{
+    list-style-type: none;
+}
+.main-left-nav .left-nav-content ul a{
+    color: black;
+    font-size: 1.2vw;
+    font-family:gilroy;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0 1vw;
+}
+
+.main-left-nav .left-nav-content i{
+    color: black;
+    font-size: 7vw;
+    padding-left: 2vw;
+    text-align: center;
+    display: none;
+}
+.main-left-nav .left-nav-logo{
+    padding-right:2vh;
+}
+.main-left-nav .left-nav-logo h1{
+    font-size: 2.5vw;
+    font-family: wilkysta;
+    text-transform: uppercase;
+    padding-right:2vh;
+}
+.main-left-content h1{
+    font-size:6vw;
+    font-family: gilroy;
+    font-weight: 800;
+    padding:1vw 0 0 4vw ;
+}
+
+.main-left-content h1 span{
+    color: rgb(181, 14, 43);
+    font-size:6vw;
+    font-family: gilroy;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.main-left-content h1 span img{ 
+    width: 100px;
+    height: 70px;
+    border-radius:50%;
+}
+.main-left-content .main-btn{
+    display: flex;
+    padding:2vw 0 0 4vw ;
+    
+}
+
+.main-btn .m-btn{
+    padding-right: 3vw;
+}
+.main-btn p{
+    font-size: 1vw;
+    padding-right: 1vw;
+    font-family: gilroy;
+    font-weight: 500;
+}
+
+.main-btn .m-btn button{
+    padding:0.8vw 3vw;
+    font-size: 1vw;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    font-family: gilroy;
+    font-weight: 800;
+}
+
+.main-right{
+    width: 50%;
+    height: 100%;
+    background: url(./photos/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main-right .right-nav-bar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-nav-bar li{
+    list-style-type: none;
+}
+.right-nav-bar li a{
+    color: white;
+    font-size:1.2vw;
+    font-family: gilroy;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding:0 1vw ;
+}
+
+.right-nav-bar i{
+    color: white;
+    font-size:1.2vw;
+    font-family: gilroy;
+    font-weight: 800;
+    padding:0 1vw ;
+}
+.context{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    
+}
+
+.context .con-left{
+    width: 50%;
+    height: 100%;   
+}
+.con-left h1{
+    font-size: 3vw;
+    font-family: gilroy;
+    text-align: center;
+    padding-top: 3vw;
+
+}
+
+.context .con-right{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.con-right p{
+    font-size: 1.5vw;
+    font-family: gilroy;
+    padding-top: 3vw;
+}
+
+.con-right button{
+    font-size: 1.2vw;
+    font-family: gilroy;
+    padding: 1vh 2vw;
+    border-radius: 20px;
+    margin-top: 1vw;
+}
+
+
+.land-two{
+    width: 100%;
+    height: 100vh;
+    border: 5px solid black;
+    display: flex;
+}
+.land-left {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    border-right: 3px solid black;
+}
+.land-left .land-img{
+    width: 95%;
+    height: 95%;
+    padding: 10px;
+    border-right: 3px solid black ;
+    background:url(./photos/two.jpg);
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.land-left .land-img h1{
+    font-family: gilroy;
+    background-color: rgba(255, 255, 255, 0.211);
+}
+.land-left .land-img h2{
+    color:black;
+    font-size: 1.5vw;
+    font-family: gilroy;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    padding:3vw;
+}
+
+.land-right{
+    width: 50%;
+    height: 100%;
+    border-right: 3px solid black ;
+}
+.land-right .right-top{
+    width: 100%;
+    height: 40%;
+    border-bottom: 3px solid black;
+    position: relative;
+}
+.right-top img{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.land-right .right-middle{
+    width: 100%;
+    height: 20%;
+}
+.right-middle h1{
+   font-family: gilroy;
+   padding:1.5vw 0 0 1vw  ;
+}
+
+.land-right .right-bottom{
+    width: 100%;
+    height: 40%;
+    position: relative;
+    border-top: 3px solid black;
+}
+
+.right-bottom img{
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.brands{
+    width: 100%;
+    height: 60vh;
+    background-color: red;
+}
+
+.brands .brand-top{
+    width: 100%;
+    height: 40%;
+    background-color: blue;
+}
+
+.brands .brand-bottom{
+    width: 100%;
+    height: 60%;
+    background-color: green;
+}
+.ri-home-2-line{
+    font-size: 10vw;
+    background-color: blue;
+    color:aliceblue;
+}
+
+
+ .con p{
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+}
